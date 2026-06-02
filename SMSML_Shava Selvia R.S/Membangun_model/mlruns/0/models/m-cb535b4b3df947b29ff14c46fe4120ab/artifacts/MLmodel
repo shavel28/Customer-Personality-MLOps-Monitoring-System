@@ -1,0 +1,57 @@
+artifact_path: file:C:/Users/INFINIX/OneDrive/Dokumen/Membangun_model/mlruns/0/models/m-cb535b4b3df947b29ff14c46fe4120ab/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.12.0
+model_id: m-cb535b4b3df947b29ff14c46fe4120ab
+model_size_bytes: 401116
+model_uuid: m-cb535b4b3df947b29ff14c46fe4120ab
+prompts: null
+run_id: f599096ee2de4412beb599d8cbffc6a1
+signature:
+  inputs: '[{"type": "double", "name": "Year_Birth", "required": true}, {"type": "double",
+    "name": "Income", "required": true}, {"type": "double", "name": "Kidhome", "required":
+    true}, {"type": "double", "name": "Teenhome", "required": true}, {"type": "double",
+    "name": "Recency", "required": true}, {"type": "double", "name": "MntWines", "required":
+    true}, {"type": "double", "name": "MntFruits", "required": true}, {"type": "double",
+    "name": "MntMeatProducts", "required": true}, {"type": "double", "name": "MntFishProducts",
+    "required": true}, {"type": "double", "name": "MntSweetProducts", "required":
+    true}, {"type": "double", "name": "MntGoldProds", "required": true}, {"type":
+    "double", "name": "NumDealsPurchases", "required": true}, {"type": "double", "name":
+    "NumWebPurchases", "required": true}, {"type": "double", "name": "NumCatalogPurchases",
+    "required": true}, {"type": "double", "name": "NumStorePurchases", "required":
+    true}, {"type": "double", "name": "NumWebVisitsMonth", "required": true}, {"type":
+    "double", "name": "AcceptedCmp3", "required": true}, {"type": "double", "name":
+    "AcceptedCmp4", "required": true}, {"type": "double", "name": "AcceptedCmp5",
+    "required": true}, {"type": "double", "name": "AcceptedCmp1", "required": true},
+    {"type": "double", "name": "AcceptedCmp2", "required": true}, {"type": "double",
+    "name": "Complain", "required": true}, {"type": "double", "name": "Z_CostContact",
+    "required": true}, {"type": "double", "name": "Z_Revenue", "required": true},
+    {"type": "double", "name": "Response", "required": true}, {"type": "double", "name":
+    "TotalSpending", "required": true}, {"type": "double", "name": "Education_Basic",
+    "required": true}, {"type": "double", "name": "Education_Graduation", "required":
+    true}, {"type": "double", "name": "Education_Master", "required": true}, {"type":
+    "double", "name": "Education_PhD", "required": true}, {"type": "double", "name":
+    "Marital_Status_Alone", "required": true}, {"type": "double", "name": "Marital_Status_Divorced",
+    "required": true}, {"type": "double", "name": "Marital_Status_Married", "required":
+    true}, {"type": "double", "name": "Marital_Status_Single", "required": true},
+    {"type": "double", "name": "Marital_Status_Together", "required": true}, {"type":
+    "double", "name": "Marital_Status_Widow", "required": true}, {"type": "double",
+    "name": "Marital_Status_YOLO", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-31 03:59:05.629049'
